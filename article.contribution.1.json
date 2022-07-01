@@ -1,51 +1,55 @@
 {
-    "resource": {
-        "name": "Statistically significant hypothesis test with IRE binding dependent variable on failing and non-failing hearts",
-        "classes": [
-            "C1007"
-        ],
-        "values": {
-            "P27011": [
-                {
-                    "label": "http://purl.obolibrary.org/obo/GO_0030350",
-                    "classes": [
-                        "URI"
-                    ]
-                }
-            ],
-            "P4003": [
-                {
-                    "classes": [
-                        "C1003"
-                    ],
-                    "values": {
-                        "P9003": [
-                            {
-                                "classes": [
-                                    "C1004"
-                                ],
-                                "values": {
-                                    "P9004": [
-                                        {
-                                            "text": "1.3111247517411605e-08"
-                                        }
-                                    ]
-                                },
-                                "label": ""
-                            }
-                        ]
-                    },
-                    "label": "the p-value of the statistical hypothesis test"
-                }
-            ],
-            "P4015": [
-                {
-                    "label": "data.csv",
-                    "classes": [
-                        "C21033"
-                    ]
-                }
-            ]
-        }
+  "@id": "_:n1",
+  "label": "Statistically significant hypothesis test with IRE binding dependent variable on failing and non-failing hearts",
+  "@type": [
+    "https://orkg.org/class/C1007"
+  ],
+  "P27011": [
+    {
+      "@id": "_:n2",
+      "label": "http://purl.obolibrary.org/obo/GO_0030350",
+      "@type": [
+        "https://orkg.org/class/URI"
+      ]
     }
+  ],
+  "P4003": [
+    {
+      "@id": "_:n3",
+      "label": "the p-value of the statistical hypothesis test",
+      "@type": [
+        "https://orkg.org/class/C1003"
+      ],
+      "P9003": [
+        {
+          "@id": "_:n4",
+          "label": "",
+          "@type": [
+            "https://orkg.org/class/C1004"
+          ],
+          "P9004": [
+            "1.3111247517411605e-08",
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "P4015": [
+    {
+      "@id": "_:n5",
+      "label": "data.csv",
+      "@type": [
+        "https://orkg.org/class/C21033"
+      ]
+    }
+  ],
+  "@context": {
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "P27011": "https://orkg.org/property/P27011",
+    "P4003": "https://orkg.org/property/P4003",
+    "P4015": "https://orkg.org/property/P4015",
+    "P9003": "https://orkg.org/property/P9003",
+    "P9004": "https://orkg.org/property/P9004"
+  }
 }

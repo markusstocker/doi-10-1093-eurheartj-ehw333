@@ -1,0 +1,51 @@
+{
+    "resource": {
+        "name": "Statistically significant hypothesis test with IRE binding dependent variable on failing and non-failing hearts",
+        "classes": [
+            "C1007"
+        ],
+        "values": {
+            "P27011": [
+                {
+                    "label": "http://purl.obolibrary.org/obo/GO_0030350",
+                    "classes": [
+                        "URI"
+                    ]
+                }
+            ],
+            "P4003": [
+                {
+                    "classes": [
+                        "C1003"
+                    ],
+                    "values": {
+                        "P9003": [
+                            {
+                                "classes": [
+                                    "C1004"
+                                ],
+                                "values": {
+                                    "P9004": [
+                                        {
+                                            "text": "1.3111247517411605e-08"
+                                        }
+                                    ]
+                                },
+                                "label": ""
+                            }
+                        ]
+                    },
+                    "label": "the p-value of the statistical hypothesis test"
+                }
+            ],
+            "P4015": [
+                {
+                    "label": "data.csv",
+                    "classes": [
+                        "C21033"
+                    ]
+                }
+            ]
+        }
+    }
+}
