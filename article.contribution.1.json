@@ -23,7 +23,7 @@
             "P9003": [
                 {
                     "@id": "_:n4",
-                    "label": "",
+                    "label": "p<0.001",
                     "@type": [
                         "https://orkg.org/class/C1004"
                     ],
