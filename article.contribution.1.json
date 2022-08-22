@@ -1,6 +1,6 @@
 {
     "@id": "_:n1",
-    "label": "Statistically significant hypothesis test with IRE binding dependent variable on failing and non-failing hearts",
+    "label": "Statistically significant hypothesis test with IRE binding dependent variable on failing and non-failing hearts (p<0.001)",
     "@type": [
         "https://orkg.org/class/C1007"
     ],
@@ -16,7 +16,7 @@
     "P4003": [
         {
             "@id": "_:n3",
-            "label": "the p-value of the statistical hypothesis test",
+            "label": "the p-value of the statistical hypothesis test (p<0.001)",
             "@type": [
                 "https://orkg.org/class/C1003"
             ],
