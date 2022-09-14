@@ -3,3 +3,4 @@ sudo docker run -d -p 3000:80 --env-file .env registry.gitlab.com/tibhannover/or
 firefox http://localhost:3000 &
 
 echo "https://api.test.datacite.org/dois/10.7484/16y2-1t51"
+echo "https://markus.stencila.io/doi-10-1093-eurheartj-ehw333/v8/"
