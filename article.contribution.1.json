@@ -10,7 +10,13 @@
                     "text": "http://purl.obolibrary.org/obo/GO_0030350"
                 }
             ],
-            "P4003": [
+            "P4015": [
+                {
+                    "label": "<orkg.client.templates.TemplateInstance object at 0x7f5a2d30f100>",
+                    "classes": [
+                        "C21033"
+                    ]
+                },
                 {
                     "classes": [
                         "C1003"
@@ -35,12 +41,9 @@
                     "label": "the p-value of the statistical hypothesis test (p<0.001)"
                 }
             ],
-            "P4015": [
+            "P4003": [
                 {
-                    "label": "https://github.com/markusstocker/doi-10-1093-eurheartj-ehw333/blob/main/data.csv",
-                    "classes": [
-                        "C21033"
-                    ]
+                    "text": "https://github.com/markusstocker/doi-10-1093-eurheartj-ehw333/blob/main/data.csv"
                 }
             ]
         }
