@@ -19,4 +19,4 @@ tp.students_ttest(
   'http://purl.obolibrary.org/obo/GO_0030350', # the study design dependent variable
   tp.pvalue('the p-value of the statistical hypothesis test (p<{})'.format(pvalue_ceil), tp.scalar_value_specification(pvalue)),
   'https://github.com/markusstocker/doi-10-1093-eurheartj-ehw333/blob/main/data.csv', # the input dataset ('df' WIP)
-).serialize_to_file('article.contribution.1.json', format='json_ld')
+).serialize_to_file('article.contribution.1.json', format='json-ld')
