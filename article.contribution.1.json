@@ -4,26 +4,16 @@
     "@type": [
         "https://orkg.org/class/C1007"
     ],
-    "P27011": [
-        "http://purl.obolibrary.org/obo/GO_0030350"
-    ],
-    "P4015": [
+    "P4003": [
         {
             "@id": "_:n2",
-            "label": "<orkg.client.templates.TemplateInstance object at 0x7f9b639d7100>",
-            "@type": [
-                "https://orkg.org/class/C21033"
-            ]
-        },
-        {
-            "@id": "_:n3",
             "label": "the p-value of the statistical hypothesis test (p<0.001)",
             "@type": [
                 "https://orkg.org/class/C1003"
             ],
             "P9003": [
                 {
-                    "@id": "_:n4",
+                    "@id": "_:n3",
                     "label": "",
                     "@type": [
                         "https://orkg.org/class/C1004"
@@ -35,14 +25,17 @@
             ]
         }
     ],
-    "P4003": [
+    "P27011": [
+        "http://purl.obolibrary.org/obo/GO_0030350"
+    ],
+    "P4015": [
         "https://github.com/markusstocker/doi-10-1093-eurheartj-ehw333/blob/main/data.csv"
     ],
     "@context": {
         "label": "http://www.w3.org/2000/01/rdf-schema#label",
+        "P4003": "https://orkg.org/property/P4003",
         "P27011": "https://orkg.org/property/P27011",
         "P4015": "https://orkg.org/property/P4015",
-        "P4003": "https://orkg.org/property/P4003",
         "P9003": "https://orkg.org/property/P9003",
         "P9004": "https://orkg.org/property/P9004"
     }
