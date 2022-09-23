@@ -18,5 +18,5 @@ tp.students_ttest(
   'Statistically significant hypothesis test with IRE binding dependent variable on failing and non-failing hearts (p<{})'.format(pvalue_ceil),
   'http://purl.obolibrary.org/obo/GO_0030350', # the study design dependent variable
   tp.pvalue('the p-value of the statistical hypothesis test (p<{})'.format(pvalue_ceil), tp.scalar_value_specification(pvalue)),
-  'data.csv', # the input dataset
+  'https://github.com/markusstocker/doi-10-1093-eurheartj-ehw333/blob/main/data.csv', # the input dataset ('df' WIP)
 ).serialize_to_file('article.contribution.1.json', format='json_ld')
