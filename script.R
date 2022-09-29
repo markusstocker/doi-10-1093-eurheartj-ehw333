@@ -14,6 +14,8 @@ instance <- tp$students_ttest(
   label=paste('Statistically significant hypothesis test with IRE binding dependent variable on failing and non-failing hearts (p<',pvalue_ceil,')', sep=''), 
   has_dependent_variable='http://purl.obolibrary.org/obo/GO_0030350', # the study design dependent variable (iron-responsive element binding)
   has_specified_input='https://github.com/markusstocker/doi-10-1093-eurheartj-ehw333/blob/main/data.csv', # the input dataset ('df' WIP)
-  has_specified_output=tp$pvalue(paste('the p-value of the statistical hypothesis test (p<',pvalue_ceil,')', sep=''), tp$scalar_value_specification(label = pvalue_str, pvalue)),
+  has_specified_output=tp$pvalue(paste('the p-value of the statistical hypothesis test (p<',pvalue_ceil,')', sep=''), 
+    tp$scalar_value_specification(pvalue_str, pvalue)
+  ),
 )
 instance$serialize_to_file('article.contribution.1.json', format='json-ld')
