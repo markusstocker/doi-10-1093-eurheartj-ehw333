@@ -1,7 +1,9 @@
 library(orkg)
+
 orkg <- ORKG(host="https://orkg.org/")
 orkg$templates$materialize_template(template_id = "R12002")
 tp = orkg$templates$list_templates()
+
 df = read.csv('data.csv')
 tt = t.test(df[['non.failing.heart..NF.']], 
              df[['failing.heart..F.']],
