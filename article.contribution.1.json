@@ -33,21 +33,23 @@
             "@type": [
                 "http://www.w3.org/ns/csvw#Table"
             ],
-            "label": "Table",
+            "label": "Summary data showing iron-responsive element (IRE) binding activity in LV tissue samples",
             "columns": [
                 {
                     "@type": [
                         "http://www.w3.org/ns/csvw#Column"
                     ],
                     "label": "non-failing heart (NF)",
-                    "name": "non-failing heart (NF)"
+                    "name": "non-failing heart (NF)",
+                    "number": 1
                 },
                 {
                     "@type": [
                         "http://www.w3.org/ns/csvw#Column"
                     ],
                     "label": "failing heart (F)",
-                    "name": "failing heart (F)"
+                    "name": "failing heart (F)",
+                    "number": 2
                 }
             ],
             "rows": [
@@ -69,7 +71,8 @@
                             ],
                             "value": 52.0
                         }
-                    ]
+                    ],
+                    "number": 1
                 },
                 {
                     "@type": [
@@ -89,7 +92,8 @@
                             ],
                             "value": 40.0
                         }
-                    ]
+                    ],
+                    "number": 2
                 },
                 {
                     "@type": [
@@ -109,7 +113,8 @@
                             ],
                             "value": 38.0
                         }
-                    ]
+                    ],
+                    "number": 3
                 },
                 {
                     "@type": [
@@ -129,7 +134,8 @@
                             ],
                             "value": 18.0
                         }
-                    ]
+                    ],
+                    "number": 4
                 },
                 {
                     "@type": [
@@ -149,7 +155,8 @@
                             ],
                             "value": 11.0
                         }
-                    ]
+                    ],
+                    "number": 5
                 },
                 {
                     "@type": [
@@ -169,7 +176,8 @@
                             ],
                             "value": 5.0
                         }
-                    ]
+                    ],
+                    "number": 6
                 },
                 {
                     "@type": [
@@ -189,7 +197,8 @@
                             ],
                             "value": 42.0
                         }
-                    ]
+                    ],
+                    "number": 7
                 },
                 {
                     "@type": [
@@ -209,7 +218,8 @@
                             ],
                             "value": 55.0
                         }
-                    ]
+                    ],
+                    "number": 8
                 },
                 {
                     "@type": [
@@ -229,7 +239,8 @@
                             ],
                             "value": 53.0
                         }
-                    ]
+                    ],
+                    "number": 9
                 },
                 {
                     "@type": [
@@ -249,7 +260,8 @@
                             ],
                             "value": 39.0
                         }
-                    ]
+                    ],
+                    "number": 10
                 },
                 {
                     "@type": [
@@ -269,7 +281,8 @@
                             ],
                             "value": 42.0
                         }
-                    ]
+                    ],
+                    "number": 11
                 },
                 {
                     "@type": [
@@ -289,9 +302,11 @@
                             ],
                             "value": 50.0
                         }
-                    ]
+                    ],
+                    "number": 12
                 }
-            ]
+            ],
+            "@id": "_:n4"
         }
     ],
     "@context": {
