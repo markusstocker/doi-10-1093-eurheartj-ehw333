@@ -18,7 +18,7 @@ pvalue_str = '{:.16f}'.format(pvalue)
 tp.students_ttest(
   label='Statistically significant hypothesis test with IRE binding dependent variable on failing and non-failing hearts (p<{})'.format(pvalue_ceil), 
   has_dependent_variable='http://purl.obolibrary.org/obo/GO_0030350', # the study design dependent variable (iron-responsive element binding)
-  has_specified_input='https://github.com/markusstocker/doi-10-1093-eurheartj-ehw333/blob/main/data.csv', # the input dataset ('df' WIP)
+  has_specified_input=df, # the input dataset
   has_specified_output=tp.pvalue('the p-value of the statistical hypothesis test (p<{})'.format(pvalue_ceil), 
     tp.scalar_value_specification('{}'.format(pvalue_str), pvalue_str)
   ),

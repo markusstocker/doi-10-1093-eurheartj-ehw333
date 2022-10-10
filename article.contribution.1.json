@@ -4,6 +4,9 @@
     "@type": [
         "https://orkg.org/class/C1007"
     ],
+    "P27011": [
+        "http://purl.obolibrary.org/obo/GO_0030350"
+    ],
     "P4003": [
         {
             "@id": "_:n2",
@@ -25,18 +28,280 @@
             ]
         }
     ],
-    "P27011": [
-        "http://purl.obolibrary.org/obo/GO_0030350"
-    ],
     "P4015": [
-        "https://github.com/markusstocker/doi-10-1093-eurheartj-ehw333/blob/main/data.csv"
+        {
+            "@type": [
+                "http://www.w3.org/ns/csvw#Table"
+            ],
+            "label": "Table",
+            "columns": [
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Column"
+                    ],
+                    "label": "non-failing heart (NF)",
+                    "name": "non-failing heart (NF)"
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Column"
+                    ],
+                    "label": "failing heart (F)",
+                    "name": "failing heart (F)"
+                }
+            ],
+            "rows": [
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 1",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 99.0
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 52.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 2",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 96.0
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 40.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 3",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 100.0
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 38.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 4",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 105.0
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 18.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 5",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": NaN
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 11.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 6",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": NaN
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 5.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 7",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": NaN
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 42.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 8",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": NaN
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 55.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 9",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": NaN
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 53.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 10",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": NaN
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 39.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 11",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": NaN
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 42.0
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "http://www.w3.org/ns/csvw#Row"
+                    ],
+                    "titles": "Row 12",
+                    "cells": [
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": NaN
+                        },
+                        {
+                            "@type": [
+                                "http://www.w3.org/ns/csvw#Cell"
+                            ],
+                            "value": 50.0
+                        }
+                    ]
+                }
+            ]
+        }
     ],
     "@context": {
         "label": "http://www.w3.org/2000/01/rdf-schema#label",
-        "P4003": "https://orkg.org/property/P4003",
         "P27011": "https://orkg.org/property/P27011",
+        "P4003": "https://orkg.org/property/P4003",
         "P4015": "https://orkg.org/property/P4015",
         "P9003": "https://orkg.org/property/P9003",
-        "P9004": "https://orkg.org/property/P9004"
+        "P9004": "https://orkg.org/property/P9004",
+        "columns": "http://www.w3.org/ns/csvw#columns",
+        "rows": "http://www.w3.org/ns/csvw#rows"
     }
 }
