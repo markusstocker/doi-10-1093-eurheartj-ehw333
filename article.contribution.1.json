@@ -317,6 +317,11 @@
         "P9003": "https://orkg.org/property/P9003",
         "P9004": "https://orkg.org/property/P9004",
         "columns": "http://www.w3.org/ns/csvw#columns",
-        "rows": "http://www.w3.org/ns/csvw#rows"
+        "name": "http://www.w3.org/ns/csvw#name",
+        "number": "http://www.w3.org/ns/csvw#number",
+        "rows": "http://www.w3.org/ns/csvw#rows",
+        "cells": "http://www.w3.org/ns/csvw#cells",
+        "value": "http://www.w3.org/ns/csvw#value",
+        "titles": "http://www.w3.org/ns/csvw#titles"
     }
 }
