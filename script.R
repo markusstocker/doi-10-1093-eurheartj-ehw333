@@ -4,10 +4,10 @@ orkg <- ORKG(host="https://orkg.org/")
 orkg$templates$materialize_template(template_id = "R12002")
 tp = orkg$templates$list_templates()
 
-df = read.csv('data.csv')
-tt = t.test(df[['non.failing.heart..NF.']], 
-             df[['failing.heart..F.']],
-               var.equal=FALSE)
+df = read.csv('data.csv', check.names=FALSE)
+tt = t.test(df[['non-failing heart (NF)']],
+            df[['failing heart (F)']],
+            var.equal=FALSE)
 pvalue = tt$p.value
 pvalue_ceil = ceiling(pvalue * 1000) / 1000.0
 pvalue_str = format(pvalue, digits=9, big.mark = ",", scientific = FALSE)
@@ -21,3 +21,5 @@ instance <- tp$students_ttest(
   ),
 )
 instance$serialize_to_file('article.contribution.1.json', format='json-ld')
+
+
