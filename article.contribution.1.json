@@ -16,13 +16,13 @@
             ],
             "P9003": [
                 {
-                    "@id": "_:n3",
+                    "@id": "_:n1",
                     "label": "0.0000000131112475",
                     "@type": [
                         "https://orkg.org/class/C1004"
                     ],
                     "P9004": [
-                        "0.0000000131112475"
+                        "1.31112475174116e-08"
                     ]
                 }
             ]
@@ -30,14 +30,15 @@
     ],
     "P4015": [
         {
-            "@type": [
-                "http://www.w3.org/ns/csvw#Table"
-            ],
+            "@id": "_:n1",
             "label": "Summary data showing iron-responsive element (IRE) binding activity in LV tissue samples",
+            "@type": [
+                "https://orkg.org/class/Table"
+            ],
             "columns": [
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Column"
+                        "https://orkg.org/class/Column"
                     ],
                     "label": "non-failing heart (NF)",
                     "name": "non-failing heart (NF)",
@@ -45,7 +46,7 @@
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Column"
+                        "https://orkg.org/class/Column"
                     ],
                     "label": "failing heart (F)",
                     "name": "failing heart (F)",
@@ -55,273 +56,277 @@
             "rows": [
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 1",
+                    "title": "Row 1",
+                    "label": "Row 1",
+                    "number": 1,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 99.0
+                            "value": "99"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 52.0
+                            "value": "52"
                         }
-                    ],
-                    "number": 1
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 2",
+                    "title": "Row 2",
+                    "label": "Row 2",
+                    "number": 2,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 96.0
+                            "value": "96"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 40.0
+                            "value": "40"
                         }
-                    ],
-                    "number": 2
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 3",
+                    "title": "Row 3",
+                    "label": "Row 3",
+                    "number": 3,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 100.0
+                            "value": "100"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 38.0
+                            "value": "38"
                         }
-                    ],
-                    "number": 3
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 4",
+                    "title": "Row 4",
+                    "label": "Row 4",
+                    "number": 4,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 105.0
+                            "value": "105"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 18.0
+                            "value": "18"
                         }
-                    ],
-                    "number": 4
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 5",
+                    "title": "Row 5",
+                    "label": "Row 5",
+                    "number": 5,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": NaN
+                            "value": "NaN"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 11.0
+                            "value": "11"
                         }
-                    ],
-                    "number": 5
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 6",
+                    "title": "Row 6",
+                    "label": "Row 6",
+                    "number": 6,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": NaN
+                            "value": "NaN"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 5.0
+                            "value": "5"
                         }
-                    ],
-                    "number": 6
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 7",
+                    "title": "Row 7",
+                    "label": "Row 7",
+                    "number": 7,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": NaN
+                            "value": "NaN"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 42.0
+                            "value": "42"
                         }
-                    ],
-                    "number": 7
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 8",
+                    "title": "Row 8",
+                    "label": "Row 8",
+                    "number": 8,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": NaN
+                            "value": "NaN"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 55.0
+                            "value": "55"
                         }
-                    ],
-                    "number": 8
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 9",
+                    "title": "Row 9",
+                    "label": "Row 9",
+                    "number": 9,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": NaN
+                            "value": "NaN"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 53.0
+                            "value": "53"
                         }
-                    ],
-                    "number": 9
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 10",
+                    "title": "Row 10",
+                    "label": "Row 10",
+                    "number": 10,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": NaN
+                            "value": "NaN"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 39.0
+                            "value": "39"
                         }
-                    ],
-                    "number": 10
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 11",
+                    "title": "Row 11",
+                    "label": "Row 11",
+                    "number": 11,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": NaN
+                            "value": "NaN"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 42.0
+                            "value": "42"
                         }
-                    ],
-                    "number": 11
+                    ]
                 },
                 {
                     "@type": [
-                        "http://www.w3.org/ns/csvw#Row"
+                        "https://orkg.org/class/Row"
                     ],
-                    "titles": "Row 12",
+                    "title": "Row 12",
+                    "label": "Row 12",
+                    "number": 12,
                     "cells": [
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": NaN
+                            "value": "NaN"
                         },
                         {
                             "@type": [
-                                "http://www.w3.org/ns/csvw#Cell"
+                                "https://orkg.org/class/Cell"
                             ],
-                            "value": 50.0
+                            "value": "50"
                         }
-                    ],
-                    "number": 12
+                    ]
                 }
-            ],
-            "@id": "_:n4"
+            ]
         }
     ],
     "@context": {
         "label": "http://www.w3.org/2000/01/rdf-schema#label",
+        "P4015": "https://orkg.org/property/P4015",
         "P27011": "https://orkg.org/property/P27011",
         "P4003": "https://orkg.org/property/P4003",
-        "P4015": "https://orkg.org/property/P4015",
         "P9003": "https://orkg.org/property/P9003",
-        "P9004": "https://orkg.org/property/P9004",
-        "columns": "http://www.w3.org/ns/csvw#columns",
-        "name": "http://www.w3.org/ns/csvw#name",
-        "number": "http://www.w3.org/ns/csvw#number",
-        "rows": "http://www.w3.org/ns/csvw#rows",
-        "cells": "http://www.w3.org/ns/csvw#cells",
-        "value": "http://www.w3.org/ns/csvw#value",
-        "titles": "http://www.w3.org/ns/csvw#titles"
+        "P9004": "https://orkg.org/property/P9004"
     }
 }
