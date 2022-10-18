@@ -1,4 +1,4 @@
-sudo docker run -d -p 3000:80 --env-file .env registry.gitlab.com/tibhannover/orkg/orkg-frontend:bb0fac02578cc36c764a122a6a2fd2e1d802d382
+sudo docker run -d -p 3000:80 --env-file .env registry.gitlab.com/tibhannover/orkg/orkg-frontend:8cd3f20563f015ed298df3bd09809c5a03427af0
 
 firefox http://localhost:3000 &
 
