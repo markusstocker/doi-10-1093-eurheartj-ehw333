@@ -22,7 +22,7 @@
                         "https://orkg.org/class/C1004"
                     ],
                     "P9004": [
-                        "0.0000000131112475"
+                        "1.31112475174116e-08"
                     ]
                 }
             ]
@@ -30,10 +30,11 @@
     ],
     "P4015": [
         {
+            "@id": "_:n4",
+            "label": "Summary data showing iron-responsive element (IRE) binding activity in LV tissue samples",
             "@type": [
                 "https://orkg.org/class/Table"
             ],
-            "label": "Summary data showing iron-responsive element (IRE) binding activity in LV tissue samples",
             "columns": [
                 {
                     "@type": [
@@ -59,6 +60,7 @@
                     ],
                     "titles": "Row 1",
                     "label": "Row 1",
+                    "number": 1,
                     "cells": [
                         {
                             "@type": [
@@ -72,8 +74,7 @@
                             ],
                             "value": "52.0"
                         }
-                    ],
-                    "number": 1
+                    ]
                 },
                 {
                     "@type": [
@@ -81,6 +82,7 @@
                     ],
                     "titles": "Row 2",
                     "label": "Row 2",
+                    "number": 2,
                     "cells": [
                         {
                             "@type": [
@@ -94,8 +96,7 @@
                             ],
                             "value": "40.0"
                         }
-                    ],
-                    "number": 2
+                    ]
                 },
                 {
                     "@type": [
@@ -103,6 +104,7 @@
                     ],
                     "titles": "Row 3",
                     "label": "Row 3",
+                    "number": 3,
                     "cells": [
                         {
                             "@type": [
@@ -116,8 +118,7 @@
                             ],
                             "value": "38.0"
                         }
-                    ],
-                    "number": 3
+                    ]
                 },
                 {
                     "@type": [
@@ -125,6 +126,7 @@
                     ],
                     "titles": "Row 4",
                     "label": "Row 4",
+                    "number": 4,
                     "cells": [
                         {
                             "@type": [
@@ -138,8 +140,7 @@
                             ],
                             "value": "18.0"
                         }
-                    ],
-                    "number": 4
+                    ]
                 },
                 {
                     "@type": [
@@ -147,6 +148,7 @@
                     ],
                     "titles": "Row 5",
                     "label": "Row 5",
+                    "number": 5,
                     "cells": [
                         {
                             "@type": [
@@ -160,8 +162,7 @@
                             ],
                             "value": "11.0"
                         }
-                    ],
-                    "number": 5
+                    ]
                 },
                 {
                     "@type": [
@@ -169,6 +170,7 @@
                     ],
                     "titles": "Row 6",
                     "label": "Row 6",
+                    "number": 6,
                     "cells": [
                         {
                             "@type": [
@@ -182,8 +184,7 @@
                             ],
                             "value": "5.0"
                         }
-                    ],
-                    "number": 6
+                    ]
                 },
                 {
                     "@type": [
@@ -191,6 +192,7 @@
                     ],
                     "titles": "Row 7",
                     "label": "Row 7",
+                    "number": 7,
                     "cells": [
                         {
                             "@type": [
@@ -204,8 +206,7 @@
                             ],
                             "value": "42.0"
                         }
-                    ],
-                    "number": 7
+                    ]
                 },
                 {
                     "@type": [
@@ -213,6 +214,7 @@
                     ],
                     "titles": "Row 8",
                     "label": "Row 8",
+                    "number": 8,
                     "cells": [
                         {
                             "@type": [
@@ -226,8 +228,7 @@
                             ],
                             "value": "55.0"
                         }
-                    ],
-                    "number": 8
+                    ]
                 },
                 {
                     "@type": [
@@ -235,6 +236,7 @@
                     ],
                     "titles": "Row 9",
                     "label": "Row 9",
+                    "number": 9,
                     "cells": [
                         {
                             "@type": [
@@ -248,8 +250,7 @@
                             ],
                             "value": "53.0"
                         }
-                    ],
-                    "number": 9
+                    ]
                 },
                 {
                     "@type": [
@@ -257,6 +258,7 @@
                     ],
                     "titles": "Row 10",
                     "label": "Row 10",
+                    "number": 10,
                     "cells": [
                         {
                             "@type": [
@@ -270,8 +272,7 @@
                             ],
                             "value": "39.0"
                         }
-                    ],
-                    "number": 10
+                    ]
                 },
                 {
                     "@type": [
@@ -279,6 +280,7 @@
                     ],
                     "titles": "Row 11",
                     "label": "Row 11",
+                    "number": 11,
                     "cells": [
                         {
                             "@type": [
@@ -292,8 +294,7 @@
                             ],
                             "value": "42.0"
                         }
-                    ],
-                    "number": 11
+                    ]
                 },
                 {
                     "@type": [
@@ -301,6 +302,7 @@
                     ],
                     "titles": "Row 12",
                     "label": "Row 12",
+                    "number": 12,
                     "cells": [
                         {
                             "@type": [
@@ -314,18 +316,16 @@
                             ],
                             "value": "50.0"
                         }
-                    ],
-                    "number": 12
+                    ]
                 }
-            ],
-            "@id": "_:n4"
+            ]
         }
     ],
     "@context": {
         "label": "http://www.w3.org/2000/01/rdf-schema#label",
+        "P4015": "https://orkg.org/property/P4015",
         "P27011": "https://orkg.org/property/P27011",
         "P4003": "https://orkg.org/property/P4003",
-        "P4015": "https://orkg.org/property/P4015",
         "P9003": "https://orkg.org/property/P9003",
         "P9004": "https://orkg.org/property/P9004",
         "columns": "https://orkg.org/property/CSVW_Columns",
