@@ -4,7 +4,7 @@ from orkg import ORKG
 from scipy.stats import ttest_ind
 
 orkg = ORKG(host='https://sandbox.orkg.org')
-orkg.templates.materialize_templates(['R12002', 'R12006', 'R12008'], verbose=False)
+orkg.templates.materialize_template('R12002')
 tp = orkg.templates
 
 df = pd.read_csv('data.csv') 
