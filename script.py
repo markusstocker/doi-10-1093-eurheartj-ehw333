@@ -3,7 +3,7 @@ import pandas as pd
 from orkg import ORKG
 from scipy.stats import ttest_ind
 
-orkg = ORKG(host='https://orkg.org')
+orkg = ORKG(host='https://sandbox.orkg.org')
 orkg.templates.materialize_templates(['R12002', 'R12006', 'R12008'], verbose=False)
 tp = orkg.templates
 

@@ -1,6 +1,6 @@
 library(orkg)
 
-orkg <- ORKG(host="https://orkg.org")
+orkg <- ORKG(host="https://sandbox.orkg.org")
 orkg$templates$materialize_template(template_id = "R12002")
 tp = orkg$templates$list_templates()
 
