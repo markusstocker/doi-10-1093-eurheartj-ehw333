@@ -4,14 +4,31 @@
     "@type": [
         "https://sandbox.orkg.org/class/C1007"
     ],
-    "P4015": [
+    "P56057": [
+        "http://purl.obolibrary.org/obo/GO_0030350"
+    ],
+    "P4003": [
         {
             "@id": "_:n2",
-            "label": "Summary data showing iron-responsive element (IRE) binding activity in LV tissue samples",
+            "label": "the p-value of the statistical hypothesis test (p<0.001)",
             "@type": [
-                "https://sandbox.orkg.org/class/Table"
+                "https://sandbox.orkg.org/class/C1003"
+            ],
+            "P9003": [
+                {
+                    "@id": "_:n3",
+                    "label": "0.0000000131112475",
+                    "@type": [
+                        "https://sandbox.orkg.org/class/C1004"
+                    ],
+                    "P9004": [
+                        "0.0000000131112475"
+                    ]
+                }
             ]
-        },
+        }
+    ],
+    "P4015": [
         {
             "@type": [
                 "https://sandbox.orkg.org/class/Table"
@@ -24,7 +41,7 @@
                     ],
                     "name": "non-failing heart (NF)",
                     "number": 1,
-                    "@id": "_:n3"
+                    "@id": "_:n4"
                 },
                 {
                     "@type": [
@@ -32,7 +49,7 @@
                     ],
                     "name": "failing heart (F)",
                     "number": 2,
-                    "@id": "_:n4"
+                    "@id": "_:n5"
                 }
             ],
             "rows": [
@@ -48,14 +65,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "99.0",
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "52.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 1
@@ -72,14 +89,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "96.0",
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "40.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 2
@@ -96,14 +113,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "100.0",
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "38.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 3
@@ -120,14 +137,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "105.0",
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "18.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 4
@@ -144,14 +161,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": null,
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "11.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 5
@@ -168,14 +185,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": null,
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "5.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 6
@@ -192,14 +209,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": null,
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "42.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 7
@@ -216,14 +233,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": null,
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "55.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 8
@@ -240,14 +257,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": null,
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "53.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 9
@@ -264,14 +281,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": null,
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "39.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 10
@@ -288,14 +305,14 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": null,
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "42.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 11
@@ -312,51 +329,29 @@
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": null,
-                            "column": "_:n3"
+                            "column": "_:n4"
                         },
                         {
                             "@type": [
                                 "https://sandbox.orkg.org/class/Cell"
                             ],
                             "value": "50.0",
-                            "column": "_:n4"
+                            "column": "_:n5"
                         }
                     ],
                     "number": 12
                 }
             ],
-            "@id": "_:n5"
-        }
-    ],
-    "P56057": [
-        "http://purl.obolibrary.org/obo/GO_0030350"
-    ],
-    "P4003": [
-        {
-            "@id": "_:n6",
-            "label": "the p-value of the statistical hypothesis test (p<0.001)",
-            "@type": [
-                "https://sandbox.orkg.org/class/C1003"
-            ],
-            "P9003": [
-                {
-                    "@id": "_:n7",
-                    "label": "0.0000000131112475",
-                    "@type": [
-                        "https://sandbox.orkg.org/class/C1004"
-                    ],
-                    "P9004": [
-                        "0.0000000131112475"
-                    ]
-                }
-            ]
+            "@id": "_:n6"
         }
     ],
     "@context": {
         "label": "http://www.w3.org/2000/01/rdf-schema#label",
-        "P4015": "https://sandbox.orkg.org/property/P4015",
         "P56057": "https://sandbox.orkg.org/property/P56057",
         "P4003": "https://sandbox.orkg.org/property/P4003",
+        "P4015": "https://sandbox.orkg.org/property/P4015",
+        "P9003": "https://sandbox.orkg.org/property/P9003",
+        "P9004": "https://sandbox.orkg.org/property/P9004",
         "columns": "https://sandbox.orkg.org/property/CSVW_Columns",
         "name": "https://sandbox.orkg.org/property/CSVW_Name",
         "number": "https://sandbox.orkg.org/property/CSVW_Number",
@@ -364,8 +359,6 @@
         "cells": "https://sandbox.orkg.org/property/CSVW_Cells",
         "value": "https://sandbox.orkg.org/property/CSVW_Value",
         "titles": "https://sandbox.orkg.org/property/CSVW_Titles",
-        "column": "https://sandbox.orkg.org/property/CSVW_Column",
-        "P9003": "https://sandbox.orkg.org/property/P9003",
-        "P9004": "https://sandbox.orkg.org/property/P9004"
+        "column": "https://sandbox.orkg.org/property/CSVW_Column"
     }
 }
