@@ -39,7 +39,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Column"
                     ],
-                    "name": "non-failing heart (NF)",
+                    "titles": [
+                        "non-failing heart (NF)"
+                    ],
                     "number": 1,
                     "@id": "_:n4"
                 },
@@ -47,7 +49,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Column"
                     ],
-                    "name": "failing heart (F)",
+                    "titles": [
+                        "failing heart (F)"
+                    ],
                     "number": 2,
                     "@id": "_:n5"
                 }
@@ -57,8 +61,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 1",
-                    "label": "Row 1",
+                    "titles": [
+                        "Row 1"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -81,8 +86,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 2",
-                    "label": "Row 2",
+                    "titles": [
+                        "Row 2"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -105,8 +111,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 3",
-                    "label": "Row 3",
+                    "titles": [
+                        "Row 3"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -129,8 +136,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 4",
-                    "label": "Row 4",
+                    "titles": [
+                        "Row 4"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -153,8 +161,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 5",
-                    "label": "Row 5",
+                    "titles": [
+                        "Row 5"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -177,8 +186,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 6",
-                    "label": "Row 6",
+                    "titles": [
+                        "Row 6"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -201,8 +211,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 7",
-                    "label": "Row 7",
+                    "titles": [
+                        "Row 7"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -225,8 +236,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 8",
-                    "label": "Row 8",
+                    "titles": [
+                        "Row 8"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -249,8 +261,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 9",
-                    "label": "Row 9",
+                    "titles": [
+                        "Row 9"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -273,8 +286,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 10",
-                    "label": "Row 10",
+                    "titles": [
+                        "Row 10"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -297,8 +311,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 11",
-                    "label": "Row 11",
+                    "titles": [
+                        "Row 11"
+                    ],
                     "cells": [
                         {
                             "@type": [
@@ -321,8 +336,9 @@
                     "@type": [
                         "https://sandbox.orkg.org/class/Row"
                     ],
-                    "titles": "Row 12",
-                    "label": "Row 12",
+                    "titles": [
+                        "Row 12"
+                    ],
                     "cells": [
                         {
                             "@type": [
