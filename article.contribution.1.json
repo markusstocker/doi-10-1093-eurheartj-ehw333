@@ -4,9 +4,6 @@
     "@type": [
         "https://sandbox.orkg.org/class/C1007"
     ],
-    "P56057": [
-        "http://purl.obolibrary.org/obo/GO_0030350"
-    ],
     "P4003": [
         {
             "@id": "_:n2",
@@ -27,6 +24,9 @@
                 }
             ]
         }
+    ],
+    "P27011": [
+        "http://purl.obolibrary.org/obo/GO_0030350"
     ],
     "P4015": [
         {
@@ -347,8 +347,8 @@
     ],
     "@context": {
         "label": "http://www.w3.org/2000/01/rdf-schema#label",
-        "P56057": "https://sandbox.orkg.org/property/P56057",
         "P4003": "https://sandbox.orkg.org/property/P4003",
+        "P27011": "https://sandbox.orkg.org/property/P27011",
         "P4015": "https://sandbox.orkg.org/property/P4015",
         "P9003": "https://sandbox.orkg.org/property/P9003",
         "P9004": "https://sandbox.orkg.org/property/P9004",
